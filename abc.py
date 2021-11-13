@@ -22,3 +22,7 @@ import math
 r=eval(input("Enter radius"))
 area=3.141592653589793*r*r
 print(area)
+
+filename=(input("enter file name"))
+fn=filename.split('.')
+print("Extension is ", (fn[-1]))
